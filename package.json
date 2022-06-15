@@ -4,7 +4,8 @@
   "description": "only god can judge me",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1"
   },
   "devDependencies": {},
   "scripts": {
