@@ -4,7 +4,7 @@ const app = express();
 let users = require('./users')
 
 const { body, validationResult } = require('express-validator');
-const { indexOf } = require('./users');
+const { users } = require('./users');
 
 
 app.use(express.urlencoded({extended:true}))
